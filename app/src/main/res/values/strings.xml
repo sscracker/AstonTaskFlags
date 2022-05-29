@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AstonTaskFlags</string>
+    <string name="flags_textView_name">Flags</string>
 </resources>
