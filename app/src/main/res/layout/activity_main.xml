@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
     <ImageView
@@ -16,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.88"
-        app:srcCompat="@drawable/Флаг_Австрии" />
+        app:srcCompat="@drawable/flagaustria" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -26,7 +27,7 @@
         android:layout_marginTop="44dp"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/флаг_италии" />
+        app:srcCompat="@drawable/flagitaly" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -36,7 +37,7 @@
         android:layout_marginBottom="36dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView6"
         app:layout_constraintEnd_toStartOf="@+id/imageView5"
-        app:srcCompat="@drawable/флаг_колумбии" />
+        app:srcCompat="@drawable/flagcolumbia" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -46,7 +47,7 @@
         android:layout_marginBottom="36dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/флаг_магадаскара" />
+        app:srcCompat="@drawable/flagmadagaskar" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -57,7 +58,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView7"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/флаг_польши" />
+        app:srcCompat="@drawable/flagpoland" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -67,7 +68,7 @@
         android:layout_marginBottom="60dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/флаг_таиланда" />
+        app:srcCompat="@drawable/flagtailand" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -78,7 +79,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView10"
         app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/флаг_швейцарии" />
+        app:srcCompat="@drawable/flagswiss" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -88,19 +89,19 @@
         android:layout_marginBottom="51dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/флаг_дании" />
+        app:srcCompat="@drawable/flagdenmark" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="141dp"
         android:layout_height="45dp"
         android:layout_marginStart="132dp"
-        android:gravity="center"
         android:layout_marginTop="32dp"
-        android:text="@string/flags_textView_name"
-        android:textSize="32sp"
-        android:textColor="@color/purple_200"
         android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/flags_textView_name"
+        android:textColor="#9575CD"
+        android:textSize="32sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
