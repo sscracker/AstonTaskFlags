@@ -95,6 +95,7 @@
         android:layout_width="141dp"
         android:layout_height="45dp"
         android:layout_marginStart="132dp"
+        android:gravity="center"
         android:layout_marginTop="32dp"
         android:text="@string/flags_textView_name"
         android:textSize="32sp"
